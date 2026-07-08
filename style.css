@@ -21,7 +21,7 @@ body {
   font-family: 'Poppins', sans-serif;
   background: var(--fondo);
   color: #171717;
-  background-color:#fff8fb;
+  background-color:#F5EBEF;
   line-height: 1.6;
 }
 
@@ -46,7 +46,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  background: #f8c8dc;
+  background: #fff8fb;
   position: fixed;
   width: 100%;
   top: 0;
@@ -56,8 +56,8 @@ nav {
 }
 
 .logo img {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   background: var(--dorado);
   color: var(--blanco);
@@ -93,10 +93,9 @@ nav a:hover {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),
-              url('img/hero.jpg') center/cover no-repeat;
-}
+  background: #F5EBEF;
 
+ }
 .hero-text h1 {
   font-size: 4rem;
   color: var(--rosa-oscuro);
