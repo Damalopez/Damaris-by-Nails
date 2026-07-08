@@ -203,9 +203,10 @@ th {
   color: var(--blanco);
 }
 
-tr:nth-child(even) {
-  background: #fff0f5;
+tr {
+    background: #fff0f5;
 }
+
 
 /* ========= SOBRE MÍ ========= */
 .about {
