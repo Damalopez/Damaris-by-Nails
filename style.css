@@ -45,7 +45,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:20px 5%;
+    padding: 30px 0px;
     position: fixed;
     width: 100%;
     top: 0;
@@ -59,10 +59,8 @@ nav {
 
 /* Cuando el usuario baja */
 nav.scrolled {
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    box-shadow: none;
+    background: transparent;
+   
 }
 
 .logo img {
@@ -79,10 +77,10 @@ nav.scrolled {
 }
 
 nav ul {
-  margin-right: 80px; 
+  margin-right: 70px; 
   display: flex;
   list-style: none;
-  gap: 25px;
+  gap: 15px;
 }
 
 nav a {
