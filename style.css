@@ -42,17 +42,27 @@ h2 {
 
 /* ========= NAVBAR ========= */
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 5px;
-  background: rgba(255,255,255,0.9);
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 5%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    /* Color inicial */
+    background: #fff8fb;
+    transition: background 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* Cuando el usuario baja */
+nav.scrolled {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: none;
 }
 
 .logo img {
